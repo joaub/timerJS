@@ -15,7 +15,7 @@ body{
    align-items: center;
    height: 100%;
    font-family: "Roboto", sans-serif;
-   background: linear-gradient(90deg, #ff0000 0%, #d34a14 100%);
+   background: linear-gradient(90deg, #2bc192 0%, #11d320 100%);
 }
 .container{
    display: flex;
