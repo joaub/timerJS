@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TimerJS</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <title>TimerJS</title>
+    
 </head>
 <body>
     <div class="container">
         <div class="clock">
-            <input class="number" type="text" maxlength="2" value="00"><span>hs</span>
-            <input class="number" type="text" maxlength="2" value="00"><span>min</span>
-            <input class="number" type="text" maxlength="2" value="00"><span>seg</span>
+            <input class="number" type="text" maxlength="2" value="00"><span>hs</span><input class="number" type="text" maxlength="2" value="00"><span>min</span><input class="number" type="text" maxlength="2" value="00"><span>seg</span>
         </div>
-        <div class="button">
-            <button id="play"></button>
-            <button id="stop"></button>
+        <div class="buttons">
+            <button id="play" onclick="startTimer()"></button>
+            <button id="stop" onclick="stopTimer()"></button>
         </div>
     </div>
     <script src="assets/js/timer.js"></script>
