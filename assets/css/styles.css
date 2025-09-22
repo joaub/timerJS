@@ -40,8 +40,8 @@ body{
    background-color: transparent;
 }
 .buttons button {
-   margin: 0 7px;
-   padding: 40px;
+   margin: 1rem;
+   padding: 10px;
    border: none;
    border-radius: 50%;
 }
@@ -49,11 +49,16 @@ body{
    background-image: url('../img/play.png');
    background-position: center;
    background-repeat: no-repeat;
+   width: 6rem;
+   height: 6rem;
+   
 }
 #stop{
    background-image: url('../img/stop.png');
    background-position: center;
    background-repeat: no-repeat;
+   width: 6rem;
+   height: 6rem;
 }
 
 #play:active{
@@ -61,4 +66,36 @@ body{
 }
 #stop:active{
    background-color: #f30d0d;
+}
+
+@media (max-width: 767px){
+   
+   .container{
+      font-size: 2rem; 
+      
+   }
+   .clock{
+      font-size: 2rem;
+      padding: 0;
+      margin: 0;
+   }
+   .number{
+      font-size: 2.5rem;
+      
+   }
+   .buttons button {
+      font-size: 1rem;
+      height: 10px;
+      width: 10px;
+   }
+   #play{
+      font-size: 1rem;
+      width: 2rem;
+      height: 2rem;
+   }
+   #stop{
+      font-size: 1rem;
+      width: 2rem;
+      height: 2rem;
+   }
 }
